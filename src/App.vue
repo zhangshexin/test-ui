@@ -1,16 +1,13 @@
 <template>
   <div id="app">
     <img src="./assets/logo.png">
-    <!--<NaveList></NaveList>-->
     <router-view/>
   </div>
 </template>
 
 <script>
-import NaveList from './components/NaveList'
 export default {
-  name: 'App',
-  components: {NaveList}
+  name: 'App'
 }
 </script>
 
